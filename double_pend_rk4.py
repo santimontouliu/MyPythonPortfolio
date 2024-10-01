@@ -9,7 +9,7 @@ M1, M2 = 1.0, 1.0  # mass of pendulum bobs in kg
 
 # Initial conditions
 theta1, theta2 = np.pi/4, 0  # initial angles in radians
-dtheta1, dtheta2 = 0, 0  # initial angular velocities
+dtheta1, dtheta2 = 2*np.pi, 0  # initial angular velocities
 
 # Simulation parameters
 dt = 0.02  # time step, in seconds. Adjusted for RK4
